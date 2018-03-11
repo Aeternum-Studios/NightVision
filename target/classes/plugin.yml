@@ -1,0 +1,14 @@
+name: ASNV
+version: 0.0.1-SNAPSHOT
+main: com.aeternum.nightvision.nightvision.ASNV
+author: Aeternum
+prefix: [ASNV]
+commands:
+  nv:
+   description: Toggle NightVision
+   aliases:
+   - nightvision
+permissions:
+  asnv.use:
+   description: Allows use of /nv
+   default: op
